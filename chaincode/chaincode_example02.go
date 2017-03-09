@@ -34,7 +34,7 @@ type SimpleChaincode struct {
 func (t *SimpleChaincode) Init(stub *shim.ChaincodeStub, function string, args []string) ([]byte, error) {
 	fmt.Printf("Init called, initializing chaincode")
 	
-	var A, B string    // Entities
+	var A, B string    // Entities Test BlockChain
 	var Aval, Bval int // Asset holdings
 	var err error
 
